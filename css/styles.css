@@ -1,4 +1,43 @@
+body {
+  background-color: rgb(208, 224, 230);
+}
+
+hr {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
 .bank {
   display: none;
 }
 
+.card {
+  height: 250px;
+  background-color: lightblue;
+  border: 1px ridge black;
+  margin-bottom: 50px;
+}
+
+p {
+  text-align: center;
+  font-size: 35px;
+}
+
+#balance {
+  background-color: white;
+  display: block;
+  height: 100px;
+  width: 200px;
+  border: 2px solid gray;
+  text-align: center;
+  font-size: 25px;
+  margin: 10px auto;
+}
+
+.form-control#name, .form-control#initial-deposit, .form-control#deposit-amount, .form-control#withdrawal-amount {
+  border: 2px solid gray;
+}
